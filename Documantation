@@ -1,0 +1,87 @@
+# Customer Churn Analysis
+
+## 1. Project Overview
+
+This project analyzes customer subscription data to understand **churn behavior, retention performance, customer lifetime value (CLV), and monthly recurring revenue (MRR) at risk**.
+
+The analysis focuses on identifying customer segments and behavioral patterns associated with subscription cancellations.
+
+## 2. Key Objectives
+
+* Calculate overall **Churn Rate** and **Retention Rate**
+* Estimate **Customer Lifetime Value (CLV)**
+* Measure **MRR Loss from Churn**
+* Analyze churn by **Contract Type, Payment Method, Subscription Tier, and Tenure**
+* Examine **Support Ticket Volume** as a potential churn signal
+* Generate visualizations to communicate business insights
+* Provide actionable recommendations to improve customer retention
+
+## 3. Analysis Performed
+
+### Customer Retention
+
+Overall churn and retention metrics were calculated to establish the baseline customer retention position.
+
+### Contract Analysis
+
+Churn rates were compared across contract types to identify whether longer-term contracts are associated with better customer retention.
+
+### Tenure Analysis
+
+Customers were grouped by tenure to determine when customers are most vulnerable to cancellation.
+
+### Payment Method Analysis
+
+Churn was compared across payment methods to identify potential payment-related retention issues.
+
+### Behavioral Analysis
+
+Support-ticket volume and customer tenure were analyzed to identify behavioral indicators associated with churn.
+
+## 4. Key Business Insights
+
+* Churn is strongly concentrated among **short-tenure customers**.
+* **Month-to-month contracts** represent the highest-risk contract segment in the analyzed sample.
+* Customers with higher **support-ticket volume** show stronger churn signals.
+* Certain **payment methods** have substantially higher observed churn rates.
+* Longer customer tenure is associated with significantly better retention.
+* MRR analysis helps identify the recurring revenue currently exposed to churn.
+
+## 5. Actionable Recommendations
+
+### 1. Encourage Contract Upgrades
+
+Provide discounts, incentives, or additional benefits to encourage month-to-month customers to move toward annual contracts.
+
+### 2. Strengthen Early Customer Onboarding
+
+Introduce proactive engagement during the first 90 days when customers are most vulnerable to churn.
+
+### 3. Reduce Support Friction
+
+Prioritize faster support resolution and investigate recurring issues among new customers.
+
+### 4. Monitor High-Risk Customers
+
+Create a simple churn-risk indicator using factors such as **low tenure and high support-ticket volume**.
+
+### 5. Improve Payment Experience
+
+Investigate payment methods with high churn and introduce payment-failure alerts, retries, and easier payment options.
+
+## 6. Tools & Technologies
+
+* **Python**
+* **Pandas**
+* **NumPy**
+* **Matplotlib**
+* **Seaborn**
+* **Jupyter Notebook**
+
+## 7. Project Outcome
+
+The project demonstrates how customer-level subscription data can be transformed into **actionable retention insights**. The analysis provides a framework for identifying high-risk customers, quantifying revenue exposure, and developing targeted churn-reduction strategies.
+
+## 8. Limitation
+
+The dataset contains only **15 customer records**, so the results should be treated as **directional insights rather than statistically robust conclusions**. The analysis should be validated using a larger production dataset before making major business decisions.
