@@ -1,0 +1,10 @@
+Metric,Value
+Total Customers,15
+Churned Customers,7
+Retained Customers,8
+Churn Rate,46.67%
+Retention Rate,53.33%
+Total MRR,"₹1,269.85"
+MRR Loss from Churn,₹409.93
+MRR Loss Percentage,32.28%
+Average Observed CLV,"₹2,088.48"
